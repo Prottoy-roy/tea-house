@@ -11,24 +11,22 @@
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/c62d1c6048.js" crossorigin="anonymous"></script>
   <!-- tailwind css cds-->
-  <script src="https://cdn.tailwindcss.com"></script>
   <title>Tea House</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
             clifford: '#da373d',
-          }
-        }
-      }
+          },
+          fontfamily: {
+            manrope: ['Manrope'],
+          },
+        },
+      },
     }
   </script>
-  <style>
-    .manrope-font {
-      font-family: "Manrope", sans-serif;
-    }
-  </style>
 </head>
 
 <body class="font-manrope">
@@ -294,8 +292,10 @@
         <div>
           <h1 class="font-semibold text-2xl mb-8">Subscribe to our<br> newsletter</h1>
           <div class="flex items-center">
-            <input class="bg-transparent border-b-2 border-black pb-5 w-4/6" type="email" placeholder="Email Address" name="" id="">
-            <i class="fa-solid fa-chevron-right flex items-center w-7 h-7 text-white bg-orange-600 rounded-full justify-center"></i>
+            <input class="bg-transparent border-b-2 border-black pb-5 w-4/6" type="email" placeholder="Email Address"
+              name="" id="">
+            <i
+              class="fa-solid fa-chevron-right flex items-center w-7 h-7 text-white bg-orange-600 rounded-full justify-center"></i>
           </div>
           <div>
             <ul class="flex gap-8 my-8">
